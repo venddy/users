@@ -1,6 +1,6 @@
 package com.appsdeveloperblog.photoapp.api.users.service;
 
-import org.springframework.security.core.userdetails.UserDetailsService;
+//import org.springframework.security.core.userdetails.UserDetailsService;
 
 import com.appsdeveloperblog.photoapp.api.users.shared.UserDto;
 
