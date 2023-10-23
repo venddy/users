@@ -33,7 +33,7 @@ public class UsersController {
 	public String status()
 	{
 		//return "Working on port " + env.getProperty("local.server.port");
-		//System.out.println("working");
+		System.out.println("working");
 		return "working";
 	}
  
