@@ -14,8 +14,8 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import com.appsdeveloperblog.photoapp.api.users.service.UsersService;
 
-@Configuration
-@EnableWebSecurity
+//@Configuration
+//@EnableWebSecurity
 public class WebSecurity {
 	
 	private UsersService usersService;
@@ -26,7 +26,7 @@ public class WebSecurity {
 		this.bCryptPasswordEncoder = bCryptPasswordEncoder;
 	}
     
-    @Bean
+    //@Bean
     protected SecurityFilterChain configure(HttpSecurity http) throws Exception {
     	
     	// Configure AuthenticationManagerBuilder
